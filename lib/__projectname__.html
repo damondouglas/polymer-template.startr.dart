@@ -1,0 +1,27 @@
+<head>
+  <link rel="import" href="../../packages/cyo_device_info/cyo_device_info.html">
+  <link rel="import" href="../../packages/cyo_globals/cyo_globals.html">
+  <link rel="stylesheet" href="../../packages/cyo_globals/cyo_globals.css" charset="utf-8">
+</head>
+
+<dom-module id="__elementname__">
+  <template>
+    <style>
+      :root {
+
+      }
+    </style>
+    <cyo-device-info id="info"
+      is-extra-small="{{isExtraSmall}}"
+      is-small="{{isSmall}}"
+      is-medium="{{isMedium}}"
+      is-large="{{isLarge}}"
+      is-extra-large="{{isExtraLarge}}"
+      is-mobile="{{isMobile}}"
+      is-desktop="{{isDesktop}}"
+    ></cyo-device-info>
+    <div>
+        Hello __elementname__
+    </div>
+  </template>
+</dom-module>
